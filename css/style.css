@@ -1,3 +1,15 @@
+/* font add */
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+
+
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -42,7 +54,7 @@ h3 {
   width: auto;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   background-color: #012e58;
 }
@@ -115,8 +127,11 @@ nav,
 }
 
 .navlist a {
+  font-family: inter ;
   padding: 10px;
   text-transform: capitalize;
+  color: black;
+  font-weight: 550;
 }
 .btn-bell-icon {
   gap: 10px;
@@ -153,3 +168,23 @@ nav,
   border: 1px solid black;
   border-radius: 3px;
 }
+
+
+
+/* ====================== resume upload part =============== */
+.upload{
+  background-image: url('../img/resume-update-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.upload .container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload h2{
+  color: #012E58;
+}
+
