@@ -2,18 +2,15 @@
 
 @font-face {
   font-family: inter;
-  src: url('../font/inter/Inter_28pt-Bold.ttf');
+  src: url("../font/Inter-Regular.otf");
 }
-
-
-
-
-
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  font-family: inter;
 }
 
 ul {
@@ -170,57 +167,80 @@ nav,
   border-radius: 3px;
 }
 
-
-
 /* ====================== resume upload part =============== */
-.upload{
-  background-image: url('../img/resume-update-bg.png');
+.upload {
+  background-image: url("../img/resume-update-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
 }
-.upload .container{
+.upload .container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.upload h2{
-  color: #012E58;
+.upload h2 {
+  color: #012e58;
 }
+.upload-resume {
+  width: 700px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.div-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upload-resume p,
+i {
+  color: gray;
+}
+.resume-btn {
+  padding: 16px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
 
 /* ================ company part =====================*/
-.company .container{
+.company .container {
   position: relative;
 }
-.company h2{
+.company h2 {
   text-align: center;
 }
 
-.company-image{
+.company-image {
   padding: 10px 50px;
 }
-.company-image figure{
+.company-image figure {
   max-width: 200px;
   width: 100%;
   align-content: center;
 }
-.company-image .row{
-  margin-top: 50px  ;
+.company-image .row {
+  margin-top: 50px;
 }
 /* .company-slider-btn{
   position: absolute;
 
 } */
 
-.left-btn{
+.left-btn {
   position: absolute;
   top: 53%;
   left: 0;
   /* left: 70px; */
 }
-.right-btn{
+.right-btn {
   position: absolute;
   top: 53%;
   right: 0;
@@ -228,18 +248,18 @@ nav,
 }
 
 /* ======================= Jobs part ================ */
-.jobs h2{
+.jobs h2 {
   display: flex;
   align-items: center;
   justify-content: start;
   margin-bottom: 35px;
   gap: 10px;
 }
-.jobs h2 hr{
+.jobs h2 hr {
   width: 88%;
 }
 
-.jobs-box{
+.jobs-box {
   max-width: 200px;
   width: 100%;
   padding: 20px 0;
@@ -247,32 +267,92 @@ nav,
   height: 100%; */
   font-size: 20px;
   text-align: center;
-   border: none;
+  border: none;
   border-radius: 25px;
-  background-color: #E2E0E0;
-  color: #012E58;
+  background-color: #e2e0e0;
+  color: #012e58;
   margin-top: 15px;
 }
-.more{
-  background-color: #012E58;
+.more {
+  background-color: #012e58;
   color: white;
 }
 
 /* ================ Service part ============== */
-.service h2{
+.service h2 {
   text-align: center;
 }
 .view-more {
   text-align: right;
   margin: 50px 0 25px;
 }
-.siz15{
+.siz15 {
   font-size: 15px;
 }
-.card-content{
+.card-content {
   text-align: center;
   line-height: 1.55;
 }
 
 /* =============== footer part ============== */
 
+.footer {
+  padding: 50px 0;
+  border-top: 1px solid gray;
+}
+
+.footer-left {
+  width: 68%;
+}
+.footer-left a {
+  display: block;
+  font-size: 20px;
+  line-height: 1.5;
+  transition: transform 0.5s ease-in-out;
+}
+.footer-left a:hover {
+  transform: scale(1.04);
+}
+.footer-left > p {
+  margin: 60px 0 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer-right {
+  width: 32%;
+}
+.app-down {
+  max-width: 420px;
+  width: 100%;
+  max-height: 340px;
+  height: 100%;
+  background-color: #012e581b;
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+.siz25 {
+  font-size: 25px;
+}
+.siz25 + p {
+  font-size: 16px;
+  margin: 15px 0 50px;
+}
+.apps {
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 10px;
+  width: 180px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto 0;
+}
+.apps figure {
+  width: 45px;
+}
