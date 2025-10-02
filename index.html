@@ -21,7 +21,7 @@
     <!-- header part -->
     <header>
       <!-- navbar part -->
-      <div class="navbar">
+      <div class="navbar" id="navtogglar">
         <div class="container">
           <nav>
             <div class="navbar-brand">
@@ -48,9 +48,9 @@
             </div>
 
             <!-- btn & bell icon -->
-            <div class="btn-bell-icon">
-              <a href="#" class="btn nav-btn"> Login </a>
-              <a href="#" class="btn nav-btn"> Register </a>
+            <div class="btn-bell-icon ">
+              <a href="#" class="btn nav-btn nav-btn1"> Login </a>
+              <a href="#" class="btn nav-btn nav-btn2"> Register </a>
               <hr />
 
               <figure>
@@ -71,15 +71,23 @@
             <h1>Find your dream job now</h1>
             <p>Explore 10 Laks + job</p>
             <form action="">
-              <input type="text" id="location" placeholder="Enter Location " class="block" />
+              <input id="block" type="text" id="location" placeholder="Enter Location"/>
 
-              <input
+              
+
+              
+            </form>
+
+            <div class="flex">
+                <form action="">
+                    <input id="inline"
                 type="text"
                 id="skill-companies"
-                placeholder="Enter Skill / Companies" class=" inline"
+                placeholder="Enter Skill / Companies" 
               />
+                </form>
 
-              <div class="dropdown inline">
+                <div class="dropdown " id="inline">
                 <a onclick="myFunction()" class="dropbtn">
                   Select Experience 
                   <i class="fa-solid fa-caret-down" style="color: #c4c4c4;"></i>
@@ -91,8 +99,9 @@
                 </div>
               </div>
 
-              <a href="#" class="btn  inline">Search</a>
-            </form>
+              <a href="#" class="btn banner-btn inline">Search</a>
+            </div>
+
           </div>
         </div>
       </section>
@@ -131,22 +140,22 @@
           <!-- img part -->
           <div class="company-image">
             <div class="row">
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/1.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/2.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/3.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/4.png" alt="company-img" />
                 </figure>
@@ -154,22 +163,22 @@
             </div>
 
             <div class="row">
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/5.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/6.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/7.png" alt="company-img" />
                 </figure>
               </div>
-              <div class="col col-25">
+              <div class="col col-25 col-sd-50 ">
                 <figure>
                   <img src="./img/Companies/8.png" alt="company-img" />
                 </figure>
@@ -201,48 +210,48 @@
           </h2>
 
           <div class="row">
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box"> Freshers </a>
             </div>
-            <div class="col col-20"><a href="#" class="jobs-box">IT </a></div>
-            <div class="col col-20"><a href="#" class="jobs-box">Java </a></div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-33"><a href="#" class="jobs-box">IT </a></div>
+            <div class="col col-20 col-md-33"><a href="#" class="jobs-box">Java </a></div>
+            <div class="col col-20 col-md-50">
               <a href="#" class="jobs-box"> HR Executive</a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-50">
               <a href="#" class="jobs-box">Manual Testing </a>
             </div>
           </div>
 
           <div class="row">
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box"> Work From Home </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box">Software engineer </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box">Digital marketing </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-50">
               <a href="#" class="jobs-box"> Sales</a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-50">
               <a href="#" class="jobs-box">Accounting</a>
             </div>
           </div>
 
           <div class="row">
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box"> Business analyst </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box">Data analyst </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-33">
               <a href="#" class="jobs-box">Digital marketing </a>
             </div>
-            <div class="col col-20">
+            <div class="col col-20 col-md-50">
               <a href="#" class="jobs-box more"> More (31) </a>
             </div>
           </div>
@@ -257,7 +266,7 @@
             <a href="#"> <b>View More</b></a>
           </p>
           <div class="row">
-            <div class="col col-33">
+            <div class="col col-33 col-sd-100">
               <div class="card">
                 <figure>
                   <img src="./img/Service/1.png" alt="service img" />
@@ -268,7 +277,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-33">
+            <div class="col col-33 col-sd-100">
               <div class="card">
                 <figure>
                   <img src="./img/Service/2.png" alt="service img" />
@@ -279,7 +288,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-33">
+            <div class="col col-33 col-sd-100">
               <div class="card">
                 <figure>
                   <img src="./img/Service/3.png" alt="service img" />
@@ -300,7 +309,7 @@
       <div class="footer">
         <div class="container">
           <div class="row">
-            <div class="col footer-left">
+            <div class="col footer-left col-md-100">
               <!-- row part -->
               <div class="row">
                 <div class="col col-33">
@@ -345,7 +354,7 @@
 
               <p>&copy; 2023 Job Portal All Rights Reserved</p>
             </div>
-            <div class="col footer-right">
+            <div class="col footer-right col-md-100">
               <div class="app-down">
                 <strong class="siz25">Download App</strong>
                 <p>Get Real Time Job Update On Our App</p>
