@@ -71,19 +71,27 @@
             <h1>Find your dream job now</h1>
             <p>Explore 10 Laks + job</p>
             <form action="">
-              <input type="text" id="location" placeholder="Enter Location" />
+              <input type="text" id="location" placeholder="Enter Location " class="block" />
 
               <input
                 type="text"
                 id="skill-companies"
-                placeholder="Enter Skill / Companies"
+                placeholder="Enter Skill / Companies" class=" inline"
               />
 
-              <div class="dropdown">
-                <a href="#">Select Experience</a>
+              <div class="dropdown inline">
+                <a onclick="myFunction()" class="dropbtn">
+                  Select Experience 
+                  <i class="fa-solid fa-caret-down" style="color: #c4c4c4;"></i>
+                </a>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Freshers</a>
+                  <a href="#">Experienced</a>
+                  
+                </div>
               </div>
 
-              <a href="#" class="btn">Search</a>
+              <a href="#" class="btn  inline">Search</a>
             </form>
           </div>
         </div>
@@ -360,5 +368,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
