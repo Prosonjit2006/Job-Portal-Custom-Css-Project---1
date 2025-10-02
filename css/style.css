@@ -22,6 +22,7 @@ ul {
 a {
   display: inline-block;
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -187,4 +188,91 @@ nav,
 .upload h2{
   color: #012E58;
 }
+
+
+/* ================ company part =====================*/
+.company .container{
+  position: relative;
+}
+.company h2{
+  text-align: center;
+}
+
+.company-image{
+  padding: 10px 50px;
+}
+.company-image figure{
+  max-width: 200px;
+  width: 100%;
+  align-content: center;
+}
+.company-image .row{
+  margin-top: 50px  ;
+}
+/* .company-slider-btn{
+  position: absolute;
+
+} */
+
+.left-btn{
+  position: absolute;
+  top: 53%;
+  left: 0;
+  /* left: 70px; */
+}
+.right-btn{
+  position: absolute;
+  top: 53%;
+  right: 0;
+  /* right: 70px; */
+}
+
+/* ======================= Jobs part ================ */
+.jobs h2{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 35px;
+  gap: 10px;
+}
+.jobs h2 hr{
+  width: 88%;
+}
+
+.jobs-box{
+  max-width: 200px;
+  width: 100%;
+  padding: 20px 0;
+  /* max-height: 70px;
+  height: 100%; */
+  font-size: 20px;
+  text-align: center;
+   border: none;
+  border-radius: 25px;
+  background-color: #E2E0E0;
+  color: #012E58;
+  margin-top: 15px;
+}
+.more{
+  background-color: #012E58;
+  color: white;
+}
+
+/* ================ Service part ============== */
+.service h2{
+  text-align: center;
+}
+.view-more {
+  text-align: right;
+  margin: 50px 0 25px;
+}
+.siz15{
+  font-size: 15px;
+}
+.card-content{
+  text-align: center;
+  line-height: 1.55;
+}
+
+/* =============== footer part ============== */
 
